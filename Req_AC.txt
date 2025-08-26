@@ -1,0 +1,9 @@
+User Story - Air Canada Automation
+US 001 : Launch https://www.aircanada.com/ portal and check “Flight status” tab. 
+ Enter the flight number details and click search.
+ Check it for a period 3 days in the past and for a few days in the future
+ You can check the following routes & flights :
+Flights :
+AC 792
+Routes :
+YYZ - YHZ
