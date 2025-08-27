@@ -1,0 +1,9 @@
+Test Scenarios for Air Canada Automation
+
+1. Verify that the Air Canada portal loads successfully.
+2. Verify that the “Flight status” tab is present and clickable.
+3. Enter flight number AC 792 and search for its status.
+4. Check flight status for AC 792 for 3 days in the past.
+5. Check flight status for AC 792 for a few days in the future.
+6. Verify that the route YYZ - YHZ is available for flight AC 792.
+7. Validate that the search results display correct flight status information for the selected dates and route.
