@@ -1,0 +1,49 @@
+Test Case 1: Verify Air Canada Portal Loads Successfully
+Precondition: User has internet access.
+Steps:
+1. Navigate to https://www.aircanada.com/
+Expected Result: The Air Canada portal loads without errors.
+
+Test Case 2: Verify “Flight status” Tab is Present and Clickable
+Precondition: Air Canada portal is loaded.
+Steps:
+1. Locate the “Flight status” tab.
+2. Click the tab.
+Expected Result: The tab is present and opens the flight status search.
+
+Test Case 3: Search for Flight AC 792 Status
+Precondition: “Flight status” tab is open.
+Steps:
+1. Enter flight number “AC 792”.
+2. Click search.
+Expected Result: Status for flight AC 792 is displayed.
+
+Test Case 4: Check Flight Status for AC 792 for 3 Days in the Past
+Precondition: “Flight status” tab is open.
+Steps:
+1. Enter flight number “AC 792”.
+2. Select a date 3 days in the past.
+3. Click search.
+Expected Result: Status for AC 792 for the selected date is displayed.
+
+Test Case 5: Check Flight Status for AC 792 for a Few Days in the Future
+Precondition: “Flight status” tab is open.
+Steps:
+1. Enter flight number “AC 792”.
+2. Select a date a few days in the future.
+3. Click search.
+Expected Result: Status for AC 792 for the selected future date is displayed.
+
+Test Case 6: Verify Route YYZ - YHZ is Available for AC 792
+Precondition: “Flight status” tab is open.
+Steps:
+1. Enter flight number “AC 792”.
+2. Select route YYZ - YHZ.
+3. Click search.
+Expected Result: Status for AC 792 on route YYZ - YHZ is displayed.
+
+Test Case 7: Validate Search Results Display Correct Information
+Precondition: Any flight status search is performed.
+Steps:
+1. Review the displayed flight status information.
+Expected Result: Information matches the selected flight, date, and route.
